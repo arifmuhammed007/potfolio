@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Arif Muhammed</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+     </script>
+     <script type="text/javascript">
+     (function(){
+      emailjs.init({
+        publicKey: "5D7cUEqM-ujKMiv7F",
+      });
+     })();
+</script>
+    
+</head>
+<body class="bg-white text-black">
+    <!-- Navbar -->
+    <nav class="p-5 bg-gray-800 shadow-md md:flex md:items-center md:justify-between">
+         
+        <!--brand name-->
+        <div class="text-2xl font-bold text-white">Arif Muhammed</div>
+
+        <!--nav link-->
+        <ul class="md:flex ms:items-center space-x-6 text-lg text-white">
+
+            <li><a href="#about" class="hover:text-gray-400">About</a></li>
+            <li><a href="#skills" class="hover:text-gray-400">Skills</a></li>
+            <li><a href="#projects" class="hover:text-gray-400">Projects</a></li>
+            <li><a href="#education" class="hover:text-gray-400">Education</a></li>
+            <li><a href="#contact" class="hover:text-gray-400">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!--main section-->
+     
+    <section class="h-screen w-screen relative shadow-md flex items-center justify-center">
+        <!-- Background Image -->
+        <div class="absolute inset-0 bg-cover bg-center bg-no-repeat"
+             style="background-image: url('https://img.freepik.com/free-photo/blue-toned-collection-paper-sheets-with-copy-space_23-2148320445.jpg');">
+        </div>
+        
+        <!-- Dark Overlay for Readability -->
+        <div class="absolute inset-0 bg-black/40"></div>
+    
+        <!-- Content Container -->
+        <div class="relative flex flex-col md:flex-row items-center p-10 md:p-16 gap-10 md:gap-20 bg-white/60 backdrop-blur-sm rounded-lg shadow-lg">
+            
+            <!-- Profile Picture -->
+            <img src="image/download.jpeg" 
+                 alt="Profile Picture" 
+                 class="w-40 h-40 md:w-60 md:h-60 rounded-full shadow-lg border-4 border-white">
+    
+            <!-- Name & Title -->
+            <div class="text-center md:text-left text-black">
+                <h1 class="text-3xl md:text-5xl font-bold">Arif Muhammed</h1>
+                <p class="text-lg md:text-xl text-gray-800 mt-2">AI Developer | Data Scientist | Web Developer</p>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    
+     <!-- About Section -->
+     <section id="about" class="py-15 px-10 mt-20 ">
+        <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center text-center md:text-left ">
+            <img src="image/download (1).jpeg" alt="About Me" class="w-100 h-100 rounded-lg space-x-60 shadow-lg mb-6 md:mb-0 md:mr-8">
+            <div>
+                <h1 class="text-3xl font-semibold">About Me</h1>
+                <p class="mt-4 max-w-2xl">I'm a passionate developer focusing on AI, data science, and full-stack development. Always learning and building innovative solutions.
+                    <br>"I'm a passionate developer specializing in AI, data science, and full-stack development. I love solving complex problems, continuously learning, and building innovative, AI-driven solutions. With expertise in Python, JavaScript, and web development, I aim to create scalable applications that enhance efficiency and drive business growth. My ultimate goal is to revolutionize industries with AI-driven financial solutions and build a billion-dollar tech company." 🚀
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skill Section -->
+<section id="skills" class="py-16 px-1 bg-white mb-50">
+    <h2 class="text-3xl font-semibold text-center mb-8 text-gray-800">Skills</h2>
+
+    <!-- Skill Container -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
+        
+        <!-- Skill 1 -->
+        <div class="flex flex-col items-center bg-white p-6 rounded-lg shadow-lg">
+            <img src="image/732212.png" alt="HTML" class="w-20 h-20">
+            <h4 class="mt-4 text-lg font-semibold text-gray-700">HTML</h4>
+        </div>
+
+        <!-- Skill 2 -->
+        <div class="flex flex-col items-center bg-white p-6 rounded-lg shadow-lg">
+            <img src="image/OIP.jpeg" alt="CSS" class="w-20 h-20">
+            <h4 class="mt-4 text-lg font-semibold text-gray-700">CSS</h4>
+        </div>
+
+        <!-- Skill 3 -->
+        <div class="flex flex-col items-center bg-white p-6 rounded-lg shadow-lg">
+            <img src="image/5968292.png" alt="JavaScript" class="w-20 h-20">
+            <h4 class="mt-4 text-lg font-semibold text-gray-700">JavaScript</h4>
+        </div>
+
+         <!-- Skill 4 -->
+         <div class="flex flex-col items-center bg-white p-6 rounded-lg shadow-lg">
+            <img src="image/download (2).jpeg" alt="JavaScript" class="w-20 h-20">
+            <h4 class="mt-4 text-lg font-semibold text-gray-700">Phyton</h4>
+        </div>
+
+        
+    
+    </div>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-1 px-8 text-center mt-28">
+        <h2 class="text-3xl font-semibold">Projects</h2>
+        <div class="mt-8 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <img src="image/Screenshot (53).png" alt="">
+                <h3 class="text-xl font-bold">Easemytrip.com </h3>
+                <p class="mt-2">This is a basic website clone of Easemytrip.com, created using HTML and CSS.last website clone I have done.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-xl font-bold">Project 2</h3>
+                <p class="mt-2">Description of the project goes here.</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-xl font-bold">Project 2</h3>
+                <p class="mt-2">Description of the project goes here.</p>
+            </div>
+        </div>
+    </section>
+     
+    <!-- Education Section -->
+<section id="education" class="py-16 px-10 bg-white">
+    <h2 class="text-3xl font-semibold text-center mb-8 text-gray-800">Education</h2>
+
+    <!-- Education Container -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        
+        <!-- Education Card 1 -->
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+            <h3 class="text-xl font-bold text-gray-700">GHSS Meppadi</h3>
+            <p class="text-gray-600"><strong>Stream:</strong> Biology Science</p>
+            <p class="text-gray-600"><strong>Year of Completion:</strong> 2021</p>
+            <p class="mt-4 text-gray-700">
+                I studied Biology Science at GHSS Meppadi and completed my Plus Two in 2021. My focus was on Mathematics, Physics, Chemistry, and Biology. This education built my analytical and problem-solving skills, preparing me for future opportunities in science and technology.
+            </p>
+        </div>
+
+        <!-- Education Card 2 -->
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+            <h3 class="text-xl font-bold text-gray-700">Nilgiri college of art and science   </h3>
+            <p class="text-gray-600"><strong>Stream:</strong> Bcom-Finance</p>
+            <p class="text-gray-600"><strong>Year of Completion:</strong> 2024</p>
+            <p class="mt-4 text-gray-700">
+                I have successfully completed my Bachelor of Commerce (B.Com) in Finance from Nilgiri College of Arts and Science, Thaloor, affiliated with Bharathiar University. Throughout my undergraduate studies, I gained a strong foundation in financial management, accounting, taxation, and business economics. My academic journey has helped me develop analytical, problem-solving, and decision-making skills essential for the financial sector. I am eager to apply my knowledge and explore opportunities in the fields of finance, data science, and AI-driven financial solutions.
+
+
+            </p>
+        </div>
+
+        <!-- Education Card 3 -->
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+            <h3 class="text-xl font-bold text-gray-700">Bridgeon Solution</h3>
+            <p class="text-gray-600"><strong>Stream:</strong> Data  scientist</p>
+            <p class="text-gray-600"><strong>Year of Completion:</strong> present</p>
+            <p class="mt-4 text-gray-700">
+                I am currently working in Data  scientist at Bridge On - Software Development (since february-17, 2025). In this role, I am developing my skills in data analysis, machine learning, and statistical modeling to extract meaningful insights from data. I work with technologies like Python, SQL, Pandas, NumPy, Scikit-Learn, and TensorFlow, applying data-driven approaches to solve real-world problems. My focus is on building predictive models, data visualization, and optimizing business decisions using AI and data analytics. I am continuously expanding my expertise to stay updated with advancements in the field.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="flex justify-center items-center w-screen min-h-[80vh] bg-white">
+    <div class="container w-4/5 shadow-md md:flex md:items-center md:justify-center gap-10 p-10 bg-white rounded-lg">
+        
+        <!-- Blue Form -->
+        <div class="bg-blue-700 text-white py-12 px-10 font-serif md:w-1/2 rounded-lg">
+            <h4 class="text-2xl font-bold mb-4">My Address</h4>
+            <p class="text-lg"><strong>Location:</strong> Pulikkalakathu(H), Meppadi PO (673577)</p>
+            <p><strong>City:</strong> Wayanad, Meppadi</p>
+            <p><strong>Country:</strong> India</p>
+            <p><strong>Email:</strong> arifaspire3090@gmail.com</p>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="bg-gray-100 shadow-lg rounded-lg p-12 md:w-1/2">
+            <h1 class="text-2xl font-bold mb-6">Contact Form</h1>
+            <form>
+                <div class="form-group mb-6">
+                    <label for="name" class="block font-medium text-lg">Name</label>
+                    <input type="text" class="form-control border border-gray-300 rounded w-full p-3 text-lg" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group mb-6">
+                    <label for="email" class="block font-medium text-lg">Email</label>
+                    <input type="email" class="form-control border border-gray-300 rounded w-full p-3 text-lg" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group mb-6">
+                    <label for="message" class="block font-medium text-lg">Message</label>
+                    <textarea id="message" rows="4" class="form-control border border-gray-300 rounded w-full p-3 text-lg"></textarea>
+                </div>
+                <button type="submit" class="btn bg-blue-700 text-white py-3 px-6 text-lg rounded hover:bg-blue-800 w-full" onclick="sendMail()">
+                    Submit
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Bottom Section -->
+<section class="bg-white text-black py-4 mt-20">
+    <div class="text-center">
+        <h4 class="text-base font-semibold">© Arif | Connect with me:</h4>
+    </div>
+
+    <div class="flex justify-center items-center gap-4 mt-3">
+        <!-- GitHub -->
+        <a href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank" class="flex flex-col items-center hover:underline">
+            <img src="image/OIP (1).jpeg" alt="GitHub" class="w-8 h-8 rounded-full hover:opacity-80">
+            <p class="mt-1 text-sm">GitHub</p>
+        </a>
+
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/arif-muhammed-47041a23a/" target="_blank" class="flex flex-col items-center hover:underline">
+            <img src="image/OIP (2).jpeg" alt="LinkedIn" class="w-8 h-8 rounded-full hover:opacity-80">
+            <p class="mt-1 text-sm">LinkedIn</p>
+        </a>
+    </div>
+</section>
+
+
+
+ 
+
+</body>
+</html>
